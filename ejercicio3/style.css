@@ -125,22 +125,21 @@ header img {
         background-repeat: no-repeat;
     }
     .content {
-        display: block;
-        padding: 0;
+        padding: 0px;
     }
 
     .contain{
         flex-direction: column;
-        padding:0 30px;
+        padding:0 10px;
         
     }
 
     header {
         vertical-align: top;
-        margin: 40px auto 50px 30px;
+        margin: 20px 10px;
     }
     header img{
-        width: 40%;
+        width: 50%;
     }
 
     .contain .mockups img{
@@ -188,9 +187,7 @@ header img {
         flex-direction: row;
         justify-content: center;
 
-        margin: 60px 0 30px 0;
-        
-    
+        margin: 60px 0px 30px 0px;
     }
 
     .icon-facebook,
