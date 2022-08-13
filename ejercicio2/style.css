@@ -1,0 +1,168 @@
+body {
+    background-color:hsl(225,100%,94%);
+    background-image:url(images/pattern-background-desktop.svg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    width:100%;
+    font-family:'Red Hat Display'
+    }
+    
+    .card {
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    margin:100px auto;
+    border-radius:15px;
+    width:470px;
+    height:720px;
+    overflow:hidden
+    }
+    
+    img {
+    width:100%
+    }
+    
+    .contain {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    padding-top:50px
+    }
+    
+    .contain .card-title .title {
+    font-size:2em;
+    font-weight:bolder;
+    color:hsl(223,47%,23%)
+    }
+    
+    .card-body {
+    padding:0 50px
+    }
+    
+    p {
+    font-size:19px;
+    color:hsl(224,23%,55%);
+    line-height: 1.5em;
+    }
+    
+    .price {
+    display:flex;
+    flex-direction:row;
+    background-color:hsl(225,100%,98%);
+    margin-right:50px;
+    margin-left:50px;
+    height: 100px;
+    justify-content:space-around;
+    align-items:center;
+    border-radius:15px
+    }
+    
+    .price .image {
+    margin-left:15px;
+    transform:translateY(5px)
+    }
+    
+    .anual-plan {
+    flex-grow:.5;
+    line-height:1.5rem
+    }
+    
+    .annualplan {
+    font-weight:700;
+    color:hsl(223,47%,23%)
+    }
+    
+    .price-year {
+    color:hsl(224,23%,55%)
+    }
+    
+    a {
+    font-weight:bolder;
+    margin-right:15px;
+    color:purple
+    }
+    
+    a:hover {
+    color:purple;
+    font-weight:lighter;
+    text-decoration:none
+    }
+    
+    .footerbtn {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:30px;
+    border:1px solid #000
+    }
+    
+    .payment {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:30px auto
+    }
+    
+    .payment .button1 {
+    font-size: 20px;
+    background:hsl(245,75%,52%);
+    color:#fff;
+    font-weight:700;
+    border-radius:10px;
+    cursor:pointer;
+    display:flex;
+    height:60px;
+    width:370px;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 20px 80px rgba(0,0,0,0.2)
+    }
+    
+    .button1:hover {
+    background:hsla(245,75%,52%,0.579)
+    }
+    
+    .payment .button2 {
+    color:gray;
+    font-weight:900;
+    margin-top:30px;
+    cursor:pointer
+    }
+    
+    .button2:hover {
+    color:#000
+    }
+
+@media screen and (max-width: 500px) {
+    .card {
+        margin: 80px 10px;
+        width: 335px;
+        height:600px;
+        }
+
+    .contain .card-title .title {
+            margin-top: -20px;
+            font-size: 1.5em;
+        }
+
+    p {
+        font-size: 16px;
+    }
+    
+    .price {
+        
+        margin-right:25px;
+        margin-left:25px;
+        height: 70px;
+        }
+    
+    .payment .button1 {
+        height:60px;
+        width:285px;
+        font-size: 15px;
+    }
+    
+        
+
+}
